@@ -1,0 +1,135 @@
+html {
+    background: #fdf7c0; 
+}
+body {
+    line-height: 1.25;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+nav {
+    float: left;
+    width: 1240px;
+    height: 30px;
+    color:khaki;
+    background-color: ivory;
+    margin: 0;
+    position:absolute;
+}
+nav ul{
+    width: 1240px;
+    list-style-type: none;
+    margin: 0;            
+    padding: 0;
+    overflow: hidden;
+    position: absolute ;
+}
+nav ul li{    
+    float:left;
+    margin-right:50px;
+}
+nav ul li a{
+     display: block;
+     color:khaki;
+     font-weight:bold;
+     text-align: center;
+     padding: 6px 12px;
+     text-decoration: none;
+ }
+nav ul li a:hover{
+     background-color: #fdf7c0;
+ }
+h1 {
+    color: rgb(207, 31, 31);
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+h2 {
+    color:rgb(255, 255, 255);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align:center;
+    font-size: 22px;
+    font-weight:inherit; 
+}
+ul li{
+    list-style: none; 
+}
+ .box{
+     position:relative;
+     width: 1200px;
+     height: 500px;
+     overflow: hidden;}
+ .banner{
+     width: 4800px;
+     position: absolute;
+     left:0%;
+     animation-name: bannerMove;
+     animation-duration: 20s;
+     animation-iteration-count: infinite;}
+ @keyframes bannerMove {
+ 0%,25%{left: 0;}
+ 26%, 50%{left: -1200px; }
+ 51%, 75%{left: -2400px; }
+ 76%, 99%{left: -3600px; }
+ 100%{left: -4800px;}
+ }
+ .banner li{
+    float: left; 
+    width: 1200px;
+    height: 500px;}
+p{
+    font-size: 14;
+    text-align: center;
+    color:rgb(255, 255, 255)
+}
+p2{
+    font-size: 16;
+    text-align: center;
+    line-height: 2;
+    color:rgb(164, 184, 209)
+}
+p3{
+    width: 100px;
+    color:#757575;
+    font-size: 12px;
+    position:fixed;
+    margin-top: 10px;
+    left: 1200px;
+    top: 350px;
+}
+h3{
+    color:rgb(207, 31, 31);
+    font-weight:bolder;  
+}
+p4 {
+    font-size: 14;
+    color:rgb(255, 255, 255);
+    position: absolute;
+    top: 800px;
+    left: 600px
+}
+h4{
+    font-size: 18px;
+    color: rosybrown;
+}
+h5,h6,h7{
+    font-size: 20px;
+    font-weight: bolder;
+}
+h5,p6,p7,p8{
+    color: cadetblue;
+}
+p5,p6,p7,p8{
+    line-height: 2;    
+    margin-left: 20px;
+}
+p5{
+    color:darkkhaki;
+}
+h6{
+    color: rgb(207, 31, 31);
+}
+h7{
+    color:sandybrown
+}
